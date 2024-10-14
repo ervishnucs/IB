@@ -29,14 +29,14 @@ app.add_middleware(
 )
 
 # Load environment variables
-#os.environ["COHERE_API_KEY"] = "0rFtyFbKgoReHD5oMnk3jlyGYTOy4lA5qdDw8Efy"
+#os.environ["COHERE_API_KEY"] = "your-api-key"
 
 # Initialize LLM and embeddings
 llm = ChatCohere(model="command-r-plus")
 embeddings_model = HuggingFaceEmbeddings(model_name="sentence-transformers/all-mpnet-base-v2")
 
 # Load insurance policy documents
-#loader = PyPDFDirectoryLoader(r"C:\Users\pmlba\OneDrive\Desktop\policies")
+#loader = PyPDFDirectoryLoader(policies)
 docs = loader.load()
 
 # Split documents into chunks
