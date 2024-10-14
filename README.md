@@ -21,9 +21,4 @@ The AI Insurance Chatbot is an AI-driven application designed to assist users wi
 - Hugging Face Transformers
 - Additional dependencies for document loading and embeddings.
 
-## Installation
 
-1. **Clone the Repository**:
-   ```bash
-   git clone https://github.com/yourusername/ai-insurance-chatbot.git
-   cd ai-insurance-chatbot
